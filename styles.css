@@ -1,0 +1,333 @@
+/* Basics */
+body {
+    margin: 0 !important;
+    padding: 0;
+    background-color: #0084d9;
+    width:100% !important;
+}
+table {
+    border-spacing: 0;
+    mso-table-lspace:0pt;
+    mso-table-rspace:0pt;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+    display: block;
+    -ms-interpolation-mode:bicubic;
+}
+div[style*="margin: 16px 0"] { 
+    margin:0 !important;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    border-collapse: collapse;
+}
+.webkit {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.outer {
+Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+}
+p {
+    mso-line-height: exactly;
+    Margin-top: 0;
+    Margin-left: 0;
+    Margin-right: 0;
+}
+.contents {
+width: 100%;
+}
+/* Full image */
+.img600 {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.img337 {
+    width: 100%;
+    max-width: 337px;
+    height: auto;
+}
+.imgfull {
+    width: 100%;
+    max-width: 556px;
+    height: auto;
+}
+.img270 {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+}
+.h1 {
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #0066bb;
+font-size: 25px;
+line-height: 28px;
+font-weight: normal;
+Margin-bottom: 14px;
+}
+.p1 {
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #45818e;
+font-size: 16px;
+line-height:22px;
+font-weight: normal;
+Margin-bottom: 20px;
+}
+.lin {
+color: #0066bb;
+}
+.h2 {
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #0066bb;
+font-size: 22px;
+line-height: 26px;
+font-weight: normal;
+Margin-bottom: 8px;
+}
+.p2 {
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #0066bb;
+font-size: 16px;
+line-height:22px;
+font-weight: normal;
+font-style: italic;
+Margin-bottom: 10px;
+}
+.citation {
+background-color: #eeeeee;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+border-left: 3px solid #0066bb;
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #0066bb;
+font-size: 15px;
+line-height:18px;
+font-weight: normal;
+font-style: italic;
+}
+.p3 {
+text-align: right;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #45818e;
+font-size: 14px;
+line-height:18px;
+font-weight: normal;
+Margin-bottom: 5px;
+}
+.p4 {
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #45818e;
+font-size: 12px;
+line-height:16px;
+font-weight: normal;
+Margin-bottom: 20px;
+}
+.cell_1 {
+padding: 5px;
+background-color: #ffffff;
+border-left: 1px solid #45818e;
+border-right: 1px solid #45818e;
+border-bottom: 1px solid #45818e; 
+}
+.cell_2 {
+padding: 3px;
+background-color: #ffffff;
+border-right: 1px solid #45818e;
+border-bottom: 1px solid #45818e; 
+}
+.h3 {
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #0066bb;
+font-size: 11px;
+line-height: 14px;
+font-weight: normal;
+Margin-bottom: 0px;
+}
+.h4 {
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #fd0872;
+font-size: 20px;
+line-height: 24px;
+font-weight: bold;
+Margin-bottom: 10px;
+}
+.p5 {
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #45818e;
+font-size: 16px;
+line-height:22px;
+font-weight: normal;
+Margin-bottom: 20px;
+}
+.h5 {
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #ffffff;
+font-size: 22px;
+line-height: 24px;
+font-weight: normal;
+Margin-bottom: 10px;
+}
+.p6 {
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #ffffff;
+font-size: 12px;
+line-height:14px;
+font-weight: normal;
+Margin-bottom: 0px;
+}
+.p7 {
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #45818e;
+font-size: 12px;
+line-height:16px;
+font-weight: normal;
+Margin-bottom: 0px;
+}
+/*COLUMNS*/
+.cols {
+text-align: left;
+font-size: 0;
+}
+.cols2 {
+text-align: center;
+font-size: 0;
+}
+.col {
+width: 100%;
+display: inline-block;
+vertical-align: middle;  
+}
+.col2 {
+width: 100%;
+display: inline-block;
+vertical-align: top;  
+}
+.header {
+background-color: #0084d9;
+background-image: url(fon1.jpg);
+background-position: center bottom;
+}
+.letter {
+    background-color: #0084d9;
+    padding-bottom: 20px;
+}
+.m200 {
+    width: 200px !important;
+}
+.mw184 {
+    max-width: 184px !important;
+}
+.mw240 {
+    max-width: 240px !important;
+}
+.mw350 {
+    max-width: 350px !important;
+}
+.mw360 {
+    max-width: 360px !important;
+}
+.mw275 {
+    max-width: 275px !important;
+}
+.telo {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    border: 3px solid #bae0f9;
+}
+li {
+padding: 0;
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #45818e;
+font-size: 16px;
+line-height:18px;
+font-weight: normal;
+Margin-bottom: 5px;
+Margin-left: 0;
+Margin-right: 0;
+Margin-top: 0;
+}
+.text {
+padding-top: 10px;
+padding-bottom: 30px;
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #45818e;
+font-size: 16px;
+line-height:18px;
+font-weight: normal;
+}
+.but {
+height: 50px;
+border-radius: 10px;
+background-color: #fd0872;
+text-align: center;
+}
+.but a {
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #ffffff;
+font-size: 18px;
+line-height:50px;
+font-weight: normal;
+text-decoration: none;
+font-style: italic;
+width: 240px;
+display: block;
+}
+.line {
+    border: 3px solid #fd0872;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+background-color: #ffffff;
+}
+.cod {
+background-color: #fd0872; 
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.footer {
+background-color: #ffffff;
+border-top: 3px solid #bae0f9;
+padding-left: 20px; padding-right: 20px;padding-bottom: 20px;padding-top: 20px;
+}
+.gift {
+background-color: #0066bb;
+padding: 10px;  
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #ffffff;
+font-size: 16px;
+line-height:22px;
+font-weight: normal;
+text-transform: uppercase;
+border-radius: 8px;
+}
